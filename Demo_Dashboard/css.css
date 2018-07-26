@@ -1,0 +1,40 @@
+.out {
+  width: 100%;
+  text-align: center;
+}
+
+.in {
+  display: inline-block;
+  width: 495px;
+  height: 300px;
+  overflow: hidden;
+  border: 2px solid
+}
+
+iframe {
+  position: relative;
+  display: inline-block;
+  width: 1200px;
+  height: 1000px;
+  border: none
+}
+
+#activity {
+  top: -90px;
+  left: -230px;
+}
+
+#overview {
+  top: -90px;
+  left: -760px;
+}
+
+#hour {
+  top: -400px;
+  left: -230px;
+}
+
+#weekday {
+  top: -400px;
+  left: -760px;
+}
