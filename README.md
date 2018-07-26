@@ -9,7 +9,7 @@ This webpage get dashboard graph and other thing from kerberos web server
 Each frames are made by using iframe tag
 
 
-![Capture](./Demo_image.jpg)
+![Capture](./SampleImage/Demo_image.jpg)
 
 
 # Demo_Dashboard
