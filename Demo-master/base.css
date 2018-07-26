@@ -1,0 +1,60 @@
+.body {
+  width: 100%;
+}
+
+.left .title {
+  text-align: center;
+}
+
+.right .title {
+  text-align: center;
+}
+
+.left {
+  width: 480px;
+  height: 885px;
+  display: inline-block;
+}
+
+
+.middle {
+  height: 930px;
+  display: inline-block;
+}
+
+.middle .top {
+  text-align: center;
+}
+
+.middle img {
+  width: 930px;
+}
+
+
+.right {
+  width: 480px;
+  height: 885px;
+  display: inline-block;
+}
+
+.img-content img {
+  width: 480px;
+  height: 410px;
+  /* object-fit: cover; */
+}
+
+#mynetwork {
+    width: 930px;
+    height: 660px;
+    border: 1px solid lightgray;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+h3 {
+  margin: 0;
+  padding: 7px;
+}
