@@ -1,3 +1,19 @@
 # Kerberos.IO
 Open CCTV Software
-document about kerberos dockerfile, api and how to setting
+Document about kerberos dockerfile, api and how to setting
+
+
+# Sample Image
+
+This webpage get dashboard graph and other thing from kerberos web server  
+Each frames are made by using iframe tag
+
+
+![Capture](./Demo_image.jpg)
+
+
+# Demo_Dashboard
+
+There is css, javascript, html files
+
+
