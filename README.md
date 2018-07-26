@@ -11,3 +11,9 @@ Each frames are made by using iframe tag
 
 ![Capture](./Demo_image.jpg)
 
+
+# Demo_Dashboard
+
+There is css, javascript, html files
+
+
