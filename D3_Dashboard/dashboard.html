@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+  <script src="Script/make_radar_chart.js"></script>
+  <script src="Script/make_pie_chart.js"></script>
+  <script src="Script/make_line_chart.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="CSS/dashboard.css">
+</head>
+
+<body>
+
+  <div class="widget">
+    <div class="header">Overview</div>
+    <canvas id="pie-chart" width="800" height="600"></canvas>
+  </div>
+
+  <div class="widget">
+    <div class="header">Overview</div>
+    <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+  </div>
+
+  <div class="widget radar">
+    <div class="header">Overview</div>
+    <div class="chart-container">
+      <canvas id="radar-chart" width="800" height="600"></canvas>
+    </div>
+  </div>
+
+
+</body>
+
+
+</html>
