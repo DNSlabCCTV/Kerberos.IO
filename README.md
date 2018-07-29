@@ -19,13 +19,13 @@ The Chart is from canvas.js, chart.js
 The data to make this chart can get by kerveros API
 
 ### Days
-![Capture](./SampleImage/overview_day.jpg)
+![Capture](./SampleImage/overview_day.JPG)
 
 ### Weekday
-![Capture](./SampleImage/overview_weekday.jpg)
+![Capture](./SampleImage/overview_weekday.JPG)
 
 ### Hours
-![Capture](./SampleImage/overview_hour.jpg)
+![Capture](./SampleImage/overview_hour.JPG)
 
 # Demo_Dashboard
 
