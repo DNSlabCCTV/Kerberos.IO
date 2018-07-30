@@ -4,36 +4,40 @@
 <head>
   <meta charset="UTF-8" />
 
+  <!--jqery, canvasjs, chartjs 로드-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+
+  <!--각 차트를 만드는 스크립트 로드-->
   <script src="Script/make_radar_chart.js"></script>
   <script src="Script/make_pie_chart.js"></script>
   <script src="Script/make_line_chart.js"></script>
 
+  <!--CSS 파일 로드-->
   <link rel="stylesheet" type="text/css" href="CSS/dashboard.css">
+
 </head>
 
 <body>
 
+  <!--pie 차트를 만들기 위한 canvas tag(id = pie-chart)-->
   <div class="widget">
     <div class="header">Overview</div>
     <canvas id="pie-chart" width="800" height="600"></canvas>
   </div>
 
+  <!-- line 차트를 만들기 위한 div tag(id = line-chart)-->
   <div class="widget">
     <div class="header">Overview</div>
-    <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+    <div id="line-chart" style="height: 370px; width: 100%;"></div>
   </div>
-
+  
+  <!-- line 차트를 만들기 위한 div tag(id = line-chart)-->
   <div class="widget radar">
     <div class="header">Overview</div>
-    <div class="chart-container">
-      <canvas id="radar-chart" width="800" height="600"></canvas>
-    </div>
+    <canvas id="radar-chart" width="800" height="600"></canvas>
   </div>
-
-
 </body>
 
 

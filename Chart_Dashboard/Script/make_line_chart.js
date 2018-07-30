@@ -43,7 +43,7 @@ $.getScript('Script/get_data.js', function() {
     dataArray.push(aJson);
   }
 
-  var chart = new CanvasJS.Chart("chartContainer", {
+  var chart = new CanvasJS.Chart("line-chart", {
     animationEnabled: true,
     title: {
       text: "Hour"
