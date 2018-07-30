@@ -5,7 +5,7 @@ Document about kerberos dockerfile, api and how to setting
 
 # Sample Image
 
-## Iframe 
+## Demo_Dashboard 
 
 This webpage get dashboard graph and other thing from kerberos web server  
 Each frames are made by using iframe tag
@@ -13,11 +13,11 @@ Each frames are made by using iframe tag
 ![Capture](SampleImage/Demo_image.jpg)
 
 
-## Chart
+## Chart_Dashboard
 
-Using Canvas.JS, Chart JS to make this chart below
+Using CanvasJS, ChartJS, HeatmapJS to make this chart and image below
 
-The data to make this chart can get by kerveros API
+The data to make this can get by kerveros API
 
 ### Days
 
@@ -30,6 +30,10 @@ The data to make this chart can get by kerveros API
 ### Hours
 
 ![Capture](SampleImage/overview_hour.JPG)
+
+### Heatmap
+
+![Capture](SampleImage/heatmap.jpg)
 
 # Demo_Dashboard, Char_Dashboard
 
