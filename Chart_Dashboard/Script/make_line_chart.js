@@ -5,7 +5,6 @@ $.getScript('Script/get_data.js', function() {
 
   data = get_data(pie_api);
   days_array = data.days
-  average_json = data.statistics
   legend_json = data.legend //요일
   days_array.push(data.statistics.average) // 일별 횟수에 평균 횟수를 추가
 
@@ -27,7 +26,6 @@ $.getScript('Script/get_data.js', function() {
     aJson.xValueFormatString = "#### hour";
     aJson.yValueFormatString = "#event";
     aJson.showInLegend = true;
-
     /*
     x, y 데이터를 가지고 있는 Json데이터 생성
     */
