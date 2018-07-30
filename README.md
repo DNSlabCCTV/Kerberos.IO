@@ -15,7 +15,8 @@ Each frames are made by using iframe tag
 
 ## Chart
 
-The Chart is from canvas.js, chart.js
+Using Canvas.JS, Chart JS to make this chart below
+
 The data to make this chart can get by kerveros API
 
 ### Days
@@ -30,7 +31,7 @@ The data to make this chart can get by kerveros API
 
 ![Capture](SampleImage/overview_hour.JPG)
 
-# Demo_Dashboard
+# Demo_Dashboard, Char_Dashboard
 
 There is css, javascript, html files
 
