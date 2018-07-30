@@ -22,7 +22,6 @@ var get_data = function(api_url) {
         async: false,
         success: function(data) {
           json_data = data;
-          console.log(data);
         }
       });
     },
